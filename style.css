@@ -1,0 +1,66 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    line-height: 2;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: linear-gradient(315deg, transparent 75%, rgba(233, 244, 233, 0.6) 0)-50px 0,
+      linear-gradient(45deg, transparent 75%, rgba(233, 244, 233, 0.6) 0) 50px 0,
+      linear-gradient(135deg, rgba(165,210,165,0.6) 50%, transparent 0) 0 0,
+      linear-gradient(45deg, rgba(131,193,131,0.6) 50%, rgba(97,176,97,0.6) 0) 0 0 rgba(97,176,97,0.6);
+    background-size: 100px 100px;
+
+}
+
+.header, .main, .footer {
+    background-color: aquamarine;
+    padding: 220px; /*ESPACE INTERNE AUTOUR DU CONTENU*/
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.main {
+    background-color: bisque;
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+h2 {
+    margin-bottom: 45px;
+}
+
+.footer {
+    background-color: lightblue;
+}
+
+.thanks {
+    background-color: rgba(165,210,165);
+    border: 1px solid rgba(131,193,131);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 70px; /*ESPACE INTERNE AUTOUR DU CONTENU*/
+    margin: 100PX; /*ESPACE AUTOUR DE LA CARTE*/
+}
+
+cite {
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+}
